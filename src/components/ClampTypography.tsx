@@ -21,6 +21,7 @@ const ClampTypography = (props: ClampTypographyProps) => {
       />
       <Button 
         variant="outlined"
+        size="large"
         onClick={() => setIsClamp(!isClamp)}
       >
         {isClamp ? "Show more" : "Show less"}
